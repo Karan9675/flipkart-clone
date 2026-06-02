@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 20px;
+    background: white;
+    width: 100%;
+}
+
+.sections {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+.flipkart-btn {
+    background: #ffe148;
+    /* color: #333; */
+}
+
+.travel-btn {
+    background: #e5e7eb;
+    /* color: #666; */
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+    color: #666;
+}
+
+.link {
+    color: #2874f0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 12px 20px;
+    background: white;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border: 2px solid #2874f0;
+    border-radius: 14px;
+    padding: 10px 16px;
+    gap: 10px;
+}
+
+.search-icon {
+    font-size: 18px;
+    color: #999;
+}
+
+.input input {
+    flex: 1;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    color: #333;
+}
+
+.input input::placeholder {
+    color: #999;
+}
+
+.user {
+    display: flex;
+    gap: 100px;
+    align-items: centre;
+    font-weight: 200;
+    font-size: 100px;
+}
+
+.login {
+    padding: 0;
+    border-radius: 0;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+}
+
+.images {
+    display: flex;
+    height: 250px;
+    gap: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.images img {
+    border-radius: 10px;
+    flex: 1;
+    object-fit: cover;
+}
+
+.promo {
+    width: 100%;
+    padding: 24px;
+    background: linear-gradient(90deg, #f46105, #ce3902);
+    border-radius: 22px;
+    margin: 20px 0 40px;
+}
+
+.promo-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.promo-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.promo-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #fff;
+    color: #d43d01;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.promo-cards {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.promo-card {
+    display: block;
+    background: #fff;
+    border-radius: 18px;
+    flex: 1;
+    min-width: 220px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    text-decoration: none;
+    color: inherit;
+}
+
+.promo-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    display: block;
+    background: #f8f8f8;
+    padding: 12px;
+}
+
+.promo-text {
+    padding: 14px 16px 18px;
+}
+
+.promo-tag {
+    display: block;
+    color: #222;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.promo-offer {
+    display: block;
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+}
