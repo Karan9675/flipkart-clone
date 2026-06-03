@@ -207,3 +207,75 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
+
+.wishlist {
+    width: 100%;
+    padding: 24px;
+    background: #fff3b8;
+    border-radius: 22px;
+    margin-bottom: 40px;
+}
+
+.wishlist-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.wishlist-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.wishlist-subtitle {
+    margin-top: 8px;
+    color: #4b5563;
+    font-size: 14px;
+}
+
+.wishlist-cards {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.wishlist-card {
+    display: block;
+    background: #fff;
+    border-radius: 18px;
+    flex: 1;
+    min-width: 220px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    text-decoration: none;
+    color: inherit;
+}
+
+.wishlist-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    display: block;
+    background: #f8f8f8;
+    padding: 12px;
+}
+
+.wishlist-text {
+    padding: 14px 16px 18px;
+}
+
+.wishlist-tag {
+    display: block;
+    color: #111827;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.wishlist-offer {
+    display: block;
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+}
